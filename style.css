@@ -1,0 +1,27 @@
+aside {
+    border: thin solid;
+    color: rgb(0, 0, 117);
+    background-color: slategrey;
+    float: right;
+    margin-right: 15em;
+}
+
+footer {
+    margin-top: 30em;
+    text-align: center;
+}
+
+
+table {
+    margin: 0 auto;
+}
+
+thead th {
+    vertical-align: bottom;
+}
+
+th, td {
+    border: solid;
+    border-width: 1px;
+    border-style: outset;
+}
