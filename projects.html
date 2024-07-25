@@ -8,23 +8,7 @@
 
 </head>
 
-<body onload="createHeaderFooter(false);">
-    <!-- One project -->
-    <div class="row">
-        <span class="text">
-            Description
-        </span>
-        <span ><img src="res/csci442_proj2/csci442_proj2_2.png"  width="600" height="400"/></span>
-        <span ><img src="res/csci442_proj2/csci442_proj2.png"  width="600" height="400"/></span>
-    </div>
-
-    <div class="row">
-        <span class="text">
-            Description
-        </span>
-        <span ><img src="res"  width="600" height="400"/></span>
-        <span ><img src="res"  width="600" height="400"/></span>
-    </div>
+<body onload="createHeader(false); createFooter();">
 
     <div class="row">
         <span class="text">
@@ -32,6 +16,35 @@
         </span>
         <span ><img src="res"  width="600" height="600"/></span>
         <span ><img src="res"  width="600" height="600"/></span>
+    </div>
+
+    <div class="row">
+        <span class="text">
+            This is an implementation of a Unix-style shell that I wrote. It allows the user to run most commands
+            that they can in a normal bash environment. The smiley face indicates that the command executed
+            successfully and the frown that it failed.
+        </span>
+        <span >
+             <img src="res/csci442_proj2/csci442_proj2_2.png"  width="600" height="400"/>
+             <figcaption>Here is the program running.</figcaption>
+        </span>
+        <span >
+            <img src="res/csci442_proj2/csci442_proj2.png"  width="600" height="400"/>
+             <figcaption>Here is a sample function that shows at a high level how pipes are handled. 
+                         There is a cyclically recursive set of function calls that occurs here that
+                         does the heavy lifting.
+             </figcaption>
+        </span>
+    </div>
+
+    <div class="row">
+        <span class="text">
+            This is a game project written in the Godot game engine for a class in graduate school at Mines.
+            It's a top-down action game that I wrote with a partner at school.
+        </span>
+        <span>
+            <video controls src="res/game/gameplay.mp4" width="1200" height="800"></video>
+        </span>
     </div>
 </body>
 </html>

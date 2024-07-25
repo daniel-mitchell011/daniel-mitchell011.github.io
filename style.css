@@ -104,7 +104,17 @@ a:hover {
     color: rgb(127, 160, 230);
 }
 
-img{
-    max-width:min-content;
-    max-height: min-content;
+.jpImage {
+    object-fit: cover;
+    width: 700px;
+    height: 600px;
 }
+
+img {
+    object-fit: cover;
+}
+
+figcaption {
+    text-align: center;
+}
+

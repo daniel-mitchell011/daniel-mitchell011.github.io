@@ -10,13 +10,10 @@ class Page {
     }    
 }
 
-/* 
-* Creates the navigation bar at the top of the screen and the footer at the bottom
-*/
-function createHeaderFooter(isIndexPage) {
+
+function createHeader(isIndexPage) {
     var h1 = document.createElement("h1");            
     var header = document.createElement("header");
-    var footer = document.createElement("footer");
     var nav = document.createElement("nav");
     var ul = document.createElement("ul");
     var li;
@@ -49,6 +46,14 @@ function createHeaderFooter(isIndexPage) {
         header.appendChild(nav)
         document.body.insertBefore(header, document.body.childNodes[0]);
     }
+
+}
+
+function createFooter() {
+    var footer = document.createElement("footer");
+    var nav = document.createElement("nav");
+    var ul = document.createElement("ul");
+    var li;
 
     nav = document.createElement("nav");
     ul = document.createElement("ul");

@@ -1,5 +1,4 @@
-This is a little personal project. I made a website dedicated to some of my travels and life in general.
+This project is a website that I made and will be hosting soon (platform TBD).
 
-For now, you can just clone the repository and open the main html file in a web browser (mainPage.html).
+I wrote this to showcase my projects and share a bit about myself and what I like.
 
-I plan to host this website on a server sometime in the future, so stay tuned!
