@@ -1,17 +1,66 @@
-aside {
-    border: thin solid;
-    color: rgb(0, 0, 117);
-    background-color: slategrey;
-    float: right;
-    margin-right: 15em;
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body { 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(27, 30, 31);
+    color: white;    
+}
+
+main {
+    flex: 1;
 }
 
 footer {
-    margin-top: 30em;
+    flex-shrink: 0;
     text-align: center;
+    margin-top: auto;
+}
+
+aside {
+    border: thin solid;
+    color: rgb(0, 0, 117);
+    background-color: rgb(68, 78, 88);
+    float: right;
+    margin-right: 20%;
+}
+
+/* Remove bullet points from the index list at the bottom of the page */
+footer > * > * {
+    list-style-type: none;
+}
+
+.table {
+    display: table;
+    border-spacing: 20px;
+}
+
+.row { 
+    display: table-row; 
 }
 
 
+.row > * {
+    display: table-cell;
+    text-align: center;
+    padding-left:   2em;
+    padding-right:  2em;
+    padding-top:    2em;
+    padding-bottom: 2em;
+    text-align:    justify;
+    font-size: large;
+}
+
+.text {
+    width: 25em;
+    vertical-align:middle;
+}
+
+/*
 table {
     margin: 0 auto;
 }
@@ -24,4 +73,38 @@ th, td {
     border: solid;
     border-width: 1px;
     border-style: outset;
+}
+*/
+
+h1 {
+    font-size: xx-large;
+    margin-left: 1%;
+}
+
+.navigationBar {
+    font-size: x-large;
+    border:2px solid;
+    padding: 8px;
+    border-color: rgb(66, 75, 92);
+    display: inline-block;
+    background-color: rgb(61, 67, 75);
+    margin-top: 1%; 
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(138, 138, 138);
+}
+
+.currentWebpage{
+    color: rgb(127, 160, 230);
+}
+
+img{
+    max-width:min-content;
+    max-height: min-content;
 }

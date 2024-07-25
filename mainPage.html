@@ -4,60 +4,48 @@
     <meta name="Author" content="Daniel Mitchell">
     <title>Daniel's Domain</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        h3 {font-size: xx-large}
-    </style>
-    
+    <script src="navigation.js"></script>
+    <script>
+        function onMainLoad() {
+            var welcome = document.createElement("h1");
+            welcome.innerHTML = "Hi there! "
+            document.body.insertBefore(welcome, document.body.childNodes[1]);
+        }
+    </script>
+
 </head>
 
-<body>
-    <header>
-    <h1> Welcome!</h1>
-    </header>
+<body onload="createHeaderFooter(false); onMainLoad();">
     
-    <nav>
-        <a href="#Japan Trip">Japan Trip</a> | <a href="#Video Games">Video Games</a>
-    </nav>
     <article>
         <section>
-            <h2 id="Japan Trip"> Japan Trip 2023</h2>
-            <p>This is a section devoted to talking about my trip to Japan in summer 2023.</p>
             <aside>
                 <figure>
-                    <img src="" alt="Fun pic">
-                    <figcaption>Here's a fun picture.</figcaption>
+                    <img src="Raistlinandcaramon.jpeg" width="400px" height="400px" alt="Fun pic">
+                    <figcaption></figcaption>
                 </figure>
             </aside>
         </section>
         <section>
-            <h2 id="Video Games">Video Games</h2>
-            <ol>
-                <li>
-                    <h4>軌跡シリーズ</h4>
-                    <ol>
-                        <li>零と碧</li>
-                        <li>空</li>
-                    </ol>
-                </li>
-            </ol>
-            <table>
-                <caption>Basic Pokemon type advantages</caption>
-                <thead>
-                    <tr>
-                        <th>Type</th>
-                        <th>Fire</th>
-                        <th>Water</th>
-                        <th>Grass</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><th>Fire</th><td>2</td><td>3</td><td>4</td></tr>
-                    <tr><th>Water</th><td>2</td><td>3</td><td>5</td></tr>
-                    <tr><th>Grass</th><td>2</td><td>3</td><td>7</td></tr>
-                </tbody>
-            </table>
+            <p>
+                <div class="row">
+                    <div class="text">
+                        <p>
+                         &nbsp;&nbsp;My name is Daniel, and welcome to my website. In here, you'll find samples of some of my work both personal and from my school days.
+                         My GitHub page has some but not all of my work since some of the projects were from fixed assignments from my university (primarily Mines) that 
+                         would be spoiling solutions to the problems they provide if I posted them. My expertise is primarily in C++/Python; however, I've been having fun learning HTML/CSS/JavaScript
+                         (for which this website is the proof) as well as Kotlin/Android recently. 
+                           
+                        </p>
+                    </div>
+                    <div class="text">
+                       
+                    </div>
+                </div>
+            </p>
         </section>
     </article>
     
-    <footer>There's nothing here yet, but stay tuned!</footer> 
+
 </body>
+</html>
