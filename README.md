@@ -1,4 +1,3 @@
-This project is a website that I made and will be hosting soon (platform TBD).
+This is my portfolio website, containing samples of my work from my school days and personal projects.
 
-I wrote this to showcase my projects and share a bit about myself and what I like.
-
+The website is hosted by GitHub here: https://daniel-mitchell011.github.io/mainPage.html
