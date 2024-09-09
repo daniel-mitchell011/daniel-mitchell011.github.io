@@ -9,16 +9,32 @@
 </head>
 
 <body onload="createHeader(false); createFooter();">
+<div class="table">
 
     <div class="row">
         <span class="text">
-            This is an Android app that I wrote in Kotlin. It allows users to create 
-            and review flash cards that they create. It uses a primitive SRS algorithm
-            to aid in reviewing the cards.
+            This is a game project written in the Godot game engine for a class in graduate school at Mines.
+            It's a top-down action game that I wrote with a partner at school.
         </span>
         <span>
-            <video controls src="res/flashcard_app_demo.webm" width="500" height="650"></video>
-            <figcaption>App Demo (no audio)</figcaption>
+            <figure>
+                <video controls src="res/game/gameplay.mp4" width="1200" height="800"></video>
+                <figcaption>gameplay (no audio)</figcaption>
+            </figure>
+        </span>
+    </div>
+
+
+    <div class="row">
+        <span class="text">
+            A lightning simulation using OpenGL, C++, and ImGUI. The algorithm that drives the creation of the lightning bolt is a space-colonization algorithm
+            <a href="https://ieeexplore.ieee.org/abstract/document/9990427"><span class="italic">found here.</span></a>
+        </span>
+        <span>
+            <figure>
+                <img src="res/project1.png" width="1200" height="800">
+                <figcaption>Here is an example lightning bolt.</figcaption>
+            </figure>
         </span>
     </div>
 
@@ -29,27 +45,26 @@
             successfully and the frown that it failed.
         </span>
         <span >
-             <img src="res/csci442_proj2/csci442_proj2_2.png"  width="600" height="400"/>
-             <figcaption>Here is the program running.</figcaption>
-        </span>
-        <span >
-            <img src="res/csci442_proj2/csci442_proj2.png"  width="600" height="400"/>
-             <figcaption>Here is a sample function that shows at a high level how pipes are handled. 
-                         There is a cyclically recursive set of function calls that occurs here that
-                         does the heavy lifting.
-             </figcaption>
+            <figure>
+                <img src="res/csci442_proj2/csci442_proj2_2.png"  width="1200" height="800"/>
+                <figcaption>Here is the program running.</figcaption>
+            </figure>
         </span>
     </div>
 
     <div class="row">
         <span class="text">
-            This is a game project written in the Godot game engine for a class in graduate school at Mines.
-            It's a top-down action game that I wrote with a partner at school.
+            This is an Android app that I wrote in Kotlin. It allows users to create 
+            and review flash cards that they create. It uses a primitive SRS algorithm
+            to aid in reviewing the cards.
         </span>
         <span>
-            <video controls src="res/game/gameplay.mp4" width="1200" height="800"></video>
-            <figcaption>gameplay (no audio)</figcaption>
+            <figure>
+                <video controls src="res/flashcard_app_demo.webm"></video>
+                <figcaption>App Demo (no audio)</figcaption>
+            </figure>
         </span>
     </div>
+</div>
 </body>
 </html>
