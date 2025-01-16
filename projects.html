@@ -2,6 +2,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="Author" content="Daniel Mitchell">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Daniel's Domain</title>
     <link rel="stylesheet" href="style.css">
     <script src="navigation.js"></script>
@@ -9,37 +14,39 @@
 </head>
 
 <body onload="createHeader(false); createFooter();">
-<div class="table">
-
+<div class="container-fluid" id="root"> </div>
+<div class="container">
     <div class="row">
-        <span class="text">
-            This is a game project written in the Godot game engine for a class in graduate school at Mines.
-            It's a top-down action game that I wrote with a partner at school. The idea of the game was to
+        <span class="col-6 ">
+            <h2>Fremder's Tale</h2>
+            <p>
+            This is a game project written in the Godot game engine for a game development class during my Master's studies at the Colorado School of Mines.
+            It's a top-down action game that I wrote with a partner. The idea of the game was to
             have a dungeon-crawler-style game with action gameplay. One unique feature of this game is the attack
             type system that is demonstrated in the pause menu; the player can choose from a variety of attacks that
             change the damage and range of their attacks. This allows for a player to choose their own style of play.
+            </p>
         </span>
-        <span>
+        <span class="col-6 ">
             <figure>
-                <video controls src="res/game/gameplay.mp4" width="900" height="600"></video>
+                <video controls src="res/game/gameplay.mp4" width="500" height="300"></video>
                 <figcaption>gameplay (no audio)</figcaption>
             </figure>
         </span>
     </div>
 
     <div class="row">
-        <span class="text">
+        <span class="col-6">
+            <h2>Unix-style Shell</h2>
             This is an implementation of a Unix-style shell that I wrote. It allows the user to run most commands
             that they can in a normal bash environment. The smiley face indicates that the command executed
             successfully and the frown that it failed.
         </span>
-        <span >
+        <span class="col">
             <figure>
-                <img src="res/csci442_proj2/csci442_proj2_2.png"  width="900" height="600"/>
-                <figcaption>Here is the program running.</figcaption>
+                <img src="res/csci442_proj2/csci442_proj2_2.png"  width="500" height="300"/>
             </figure>
         </span>
-    </div>
 
 </div>
 </body>

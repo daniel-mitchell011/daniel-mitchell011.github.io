@@ -40,10 +40,13 @@ footer > * > * {
   border-spacing: 20px;
 }
 
+/*
 .row {
   display: table-row;
 }
+*/
 
+/*
 .row > * {
   display: table-cell;
   text-align: center;
@@ -54,6 +57,7 @@ footer > * > * {
   text-align: justify;
   font-size: large;
 }
+*/
 
 .text {
   width: 28em;
